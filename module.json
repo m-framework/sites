@@ -1,0 +1,19 @@
+{
+  "title":"Web-sites",
+  "name":"sites",
+  "description":"Module for managing of web-sites if you have portal or different domains per ove virtual host",
+  "icon":"<i class=\"fa fa-globe\"></i>",
+  "version":"1.0",
+  "date":"2017-12-13",
+  "author":"mrinmiro@gmail.com",
+  "compatible_cores":["1.0"],
+  "dashboard_menu":{
+    "":"<i class=\"fa fa-globe\"></i> *Sites overview*",
+    "/settings":"<i class=\"fa fa-cogs\"></i> *Current website settings*",
+    "/add":"<i class=\"fa fa-plus\"></i> *Add new site*"
+  },
+  "tags":["web-sites","sites","site","site options"],
+  "price":"0",
+  "requires":[],
+  "":""
+}
