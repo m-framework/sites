@@ -94,7 +94,7 @@ class settings extends module {
                     'type' => 'site_options',
                     'field_name' => i18n::get('Site options'),
                     'options' => [
-                        'default_site_id' => $default_settings['site']['id'],
+                        'default_site_id' => @$default_settings['site']['id'],
                         'site_id' => $this->site->id,
                         'default_site_type' => $default_settings['site']['type'],
                         'site_types_options' => implode('', $site_types_options),
